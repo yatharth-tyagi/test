@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rank check</title>
+    <link href="Rankcheck.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="title">
+            <p>Dronacharaya Shikshan Sansthan</p>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Courses.html">Courses</a></li>
+                <li><a href="Latest Exams.html">Latest Exams</a></li>
+                <li><a href="Notifications.html">Notifications</a></li>
+                <li><a href="Store.html">Store</a></li>
+                <li><a href="Rankcheck.html">Rank check</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="Contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="form">
+        <h2>Fill Form</h2>
+        <form action="Rankcheck.js">
+            <!-- we use label tag for labelling i.e. if we click on the Name on the website it just move to the input box by clicking on the Name option but if not it won't and id should be equal to the input value of the "for" -->
+            <label for="name"> Name</label>
+            <div>
+                <input type="text" name="myName" placeholder="Enter full Name" id="name"><br>
+            </div>
+            <label for="url">Url</label>
+            <div>
+                <input type="url" name="myurl" placeholder="Enter Url" id="url"><br>
+            </div>
+            <label for="category">Category</label>
+            <select name="mycategory" id="category">
+                <option value="OPEN/UR" selected>OPEN/UR</option>
+                <option value="EWS">EWS</option>
+                <option value="OBC">OBC</option>
+                <option value="SC">SC</option>
+                <option value="ST">ST</option>
+            </select>
+            <!-- <div>
+                <input type="text" name="myCategory" placeholder="Enter Category" id="category"><br>
+            </div> -->
+            <label for="hz">Horizontal Reservation</label>
+            <!-- <div>
+                <input type="text" name="myhorizontal-reservation" placeholder="Enter horizontal reservation"
+                    id="hz"><br>
+            </div> -->
+            <select name="myhz" id="hz">
+                <option value="NONE" selected>NONE</option>
+                <option value="ExSM">ExSM</option>
+                <option value="OH">OH</option>
+                <option value="VH">VH</option>
+                <option value="HH">HH</option>
+            </select>
+            <label for="Password">Password</label>
+            <div>
+                <input type="password" name="mypassword" placeholder="Enter password" id="Password"><br>
+            </div>
+            <div class="submit">
+                <input type="submit" value="submit now"><span></span>
+                <input type="reset" value="Reset"><span></span>
+            </div>
+        </form>
+    </div>
+    <div class="main1">
+        <div class="temp">
+            <section>
+                <p>abc</p>
+            </section>
+        </div>
+    </div>
+    <div class="ended">
+        <div class="end">
+            <p>NO-COPYRIGHT CONTENT- © 2023 <a href="abc.com">abc.com</a></p>
+            <p>Dronacharaya Shiksha Sansthan</p>
+        </div>
+    </div>
+<script>
+</script>
+</body>
+
+</html>
